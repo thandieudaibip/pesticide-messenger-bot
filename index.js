@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 const PAGE_TOKEN = process.env.PAGE_TOKEN;
 
 // 🔐 Verify Token (PHẢI TRÙNG với Facebook)
-const VERIFY_TOKEN = "verify_bot";
+const VERIFY_TOKEN = "fb_verify_2026";
 
 /* =======================
    VERIFY WEBHOOK
