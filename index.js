@@ -76,6 +76,7 @@ function sendText(id, text) {
    PORT (RẤT QUAN TRỌNG)
 ======================= */
 const PORT = process.env.PORT || 3000;
+
 app.listen(PORT, () => {
-  console.log("🚀 Bot đang chạy trên port " + PORT);
+  console.log("🤖 Bot dang chay tren port " + PORT);
 });
